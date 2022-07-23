@@ -8,12 +8,10 @@
     <link rel="stylesheet" href="./CSS/header.css">
     <link rel="stylesheet" href="./CSS/principalPage.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
 </head>
 <body>
-    <section class="prueba">
-
-    </section>
-    <section class="header">
+    <header class="header">
         <div class="logo_menu">
             <div class="logo">
                 <img src="./Images/LOGO_Mesa de trabajo 1.png" alt="logo_ib">
@@ -40,42 +38,137 @@
                 </nav>
             </div>
         </div>
+    </header>
 
-        <div class="carrousel">
-            <div class="container">
-                <div class="carrousel_text img_uno">
-                    <div class="carrousel_background">
-                        <h1>Le brindamos poder y potencia a tu <br> marca para impulsa al exito.</h1>           
-                    </div>
-                </div>
-                <div class="carrousel_text img_dos">
-                    <div class="carrousel_background">
-                        <h1>Le brindamos poder y potencia a tu <br> marca para impulsa al exito.</h1>           
-                    </div>
-                </div>
-                <div class="carrousel_text img_tres">
-                    <div class="carrousel_background">
-                        <h1>Le brindamos poder y potencia a tu <br> marca para impulsa al exito.</h1>           
-                    </div>
-                </div>
-                <div class="carrousel_text img_cuatro">
-                    <div class="carrousel_background">
-                        <h1>Le brindamos poder y potencia a tu <br> marca para impulsa al exito.</h1>           
-                    </div>
+    <section class="carrousel">
+        <div class="container">
+            <div class="carrousel_text img_uno">
+                <div class="carrousel_background">
+                    <h1>Le brindamos poder y potencia a tu<br>marca para impulsa al exito.</h1>           
                 </div>
             </div>
+            <div class="carrousel_text img_dos">
+                <div class="carrousel_background">
+                    <h1>Desarrollamos la imagen integral de<br>una persona, empresa o institución.</h1>           
+                </div>
+            </div>
+            <div class="carrousel_text img_tres">
+                <div class="carrousel_background">
+                    <h1>Capacitamos en el aprendizaje y<br>manejo estratégico de la percepción,<br>opinión publica y reputación</h1>           
+                </div>
+            </div>
+            <div class="carrousel_text img_cuatro">
+                <div class="carrousel_background">
+                    <h1>Le brindamos poder y potencia a tu <br> marca para impulsa al exito.</h1>           
+                </div>
+            </div>
+        </div>
+    
+        <ul class="puntos">
+            <li class="punto activo"> </li>
+            <li class="punto"></li>
+            <li class="punto"></li>
+            <li class="punto"></li>
+        </ul>
+    </section>
 
-            <ul class="puntos">
-                <li class="punto activo"> </li>
-                <li class="punto"></li>
-                <li class="punto"></li>
-                <li class="punto"></li>
-            </ul>
+    <section class="servicio">
+        <div class="titulo_servicios">
+            <h1>
+                NUESTROS SERVICIOS
+            </h1>
+        </div>
+        <div class="servicios">
+            <div class="textos_servicios">
+                <h1>Escuela de imagen</h1>
+                <br>
+                <h2>Cursos, talleres y diplomados</h2>
+            </div>
+            <div class="textos_servicios">
+                <h1>Imagen individual</h1>
+            </div>
+            <div class="textos_servicios">
+                <h1>Imagen empresarial</h1>
+                <br>
+                <h2>Les asistimos en el diseño, mejora o creación de su imagen</h2>
+            </div>
         </div>
     </section>
-    <section class="algo">
-
+    <section class="equipo">
+        <div class="equipo_titulo">
+            <h1>CONOCE A NUESTRO EQUIPO</h1>
+        </div>
+        <div class="personas">
+            <div class="persona">
+                <h1>Dra. Lourdes Cortés</h1>
+                <h2>Fundadora y Directora General</h2>
+            </div>
+            <div class="persona">
+                <h1>Mtra. Tania Ruelas</h1>
+                <h2>Maestra en Imagen Publica</h2>
+            </div>
+            <div class="persona">
+                <h1>Lic. Isabel Cortés</h1>
+                <h2>Foniatra y fisiognormista</h2>
+            </div>
+            <div class="persona">
+                <h1>Lic. Edson García</h1>
+                <h2>Imagen Integral y Coach del Deporte en Alto Rendimiento</h2>
+            </div>
+            <div class="persona">
+                <h1>Lic. Javier García</h1>
+                <h2>Imagen Integral y Quiropráctico</h2>
+            </div>
+            <div class="persona">
+                <h1>Ivan Lara</h1>
+                <h2>Colorista, Barbero y Especialista en Teoría del Color</h2>
+            </div>
+        </div>
     </section>
+
+    <section class="mensajes">
+        <div class="mensaje">
+            <p>
+                "Supera por mucho las espectativas, muchísimo valor por el dinero que entregas, seguire comprando más productos"
+            </p>
+            <h2>Dolores Gallardo</h2>
+        </div>
+        <div class="mensaje">
+            <p>
+                "Los cursos me han servido para posicionarme en el mercado y mejorar mi marca personal ante posibles clientes y posibles jefes"
+            </p>
+            <h2>Sergio Goméz</h2>
+        </div>
+        <div class="mensaje">
+            <p>
+                "Me ayudaron a crecer mi negocio y estaré siempre agradecida con el servicio tan profesional que brindan"
+            </p>
+            <h2>Lucía Nuñez</h2>
+        </div>
+    </section>
+
+    <footer>
+        <div class="sociales">
+            <h1>Contáctanos</h1>
+            <h2>contacto@imagob.com.mx</h2>
+            <br>
+            <p>redes sociales</p>
+        </div>
+        <div class="form">
+            <form action="./PHP/form.php" method="post" class="form">
+                <input type="text" name="name" id="name" class="name" placeholder="Nombre">
+                <input type="text" name="mail" id="mail" class="email" placeholder="Correo">
+                <input type="text" name="phone" id="subject" class="subject" placeholder="Telefono (opcional)">
+                <textarea name="message" class="message" placeholder="Mensaje ... " id="message" rows="8"></textarea>
+                <div class="clear">
+                    <div class="col-md-8"> 
+                        <button type="submit" class="btn btn-primary">ENVIAR </button>
+                    </div>
+                </div>
+                </div>
+            </form>
+        </div>
+    </footer>
 
     <script src="./JS/carrousel.js"></script>
 </body>
