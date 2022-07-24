@@ -6,8 +6,9 @@
 .header{
     width: 100%;
     height: auto;
-    background-color: #6705a4;
-/*     box-shadow: 0 0 24px 0 black; */
+/*     background-color: #6705a4; */
+background: rgb(2,0,36);
+background: linear-gradient(93deg, rgba(2,0,36,1) 0%, rgba(45,2,91,1) 0%, rgba(103,5,164,1) 93%, rgba(103,5,164,1) 100%);
 }
 .logo_menu{
     width: 100%;
@@ -49,7 +50,7 @@
 .menu a{
     color: white;
     text-decoration: none;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Titillium Web', sans-serif;
 }
 ol, ul{
     margin: 0;
@@ -66,6 +67,7 @@ ol, ul{
     height: 700px;
     overflow: hidden;
     width: 100%;
+    box-shadow: 0 10px 10px gray;
 }
 .container{
     width: 400%;
@@ -175,8 +177,24 @@ ol, ul{
     color: #6705a4;
 }
 .textos_servicios h2{
-    font-size: 20px;
+    font-size: 19px;
     color: #6705a4;
+}
+.icon_serv{
+    width: 80px;
+    height: 80px;
+    margin: 10px auto;
+    display: flex;
+    background-size: 80px 80px;
+}
+.icon_serv.escuela_img{
+    background-image: url(../Images/escuela.svg);
+}
+.icon_serv.img_ind{
+    background-image: url(../Images/img_ind.svg);
+}
+.icon_serv.img_emp{
+    background-image: url(../Images/img_emp.svg);
 }
 .equipo{
     background-color: lightgray;
@@ -228,10 +246,31 @@ footer{
     color: white;
     display: flex;
     justify-content: space-between;
-    padding: 50px;
+    padding: 50px 70px;
 }
 .sociales{
     width: 400px;
+}
+.redes{
+    display: flex;
+}
+.redes_sociales{
+    width: 80px;
+    height: 80px;
+    background-size: 80px 80px;
+    display: block;
+}
+.redes_sociales.facebook{
+    background-image: url(../Images/facebook.svg);
+}
+.redes_sociales.messenger{
+    background-image: url(../Images/messenger.svg);
+}
+.redes_sociales.insta{
+    background-image: url(../Images/insta.svg);
+}
+.redes_sociales.whatsapp{
+    background-image: url(../Images/whatsapp.svg);
 }
 .form{
     width: 600px;
